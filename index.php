@@ -8,6 +8,8 @@
     <h1 class="text-4xl text-center mt-20">Hello, World!</h1>
     <?php
         echo '<div class="text-center mt-5 text-blue-500">Hello, World!</div>';
+        
     ?>
+
 </body>
 </html>

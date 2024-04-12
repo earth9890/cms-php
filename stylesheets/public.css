@@ -22,7 +22,7 @@ body {
 
 #navigation {
     width: 20%;
-    background-color: #bf0c0c;
+    background-color: rgb(255, 255, 255);
     vertical-align: top;
     padding: 10px;
 }
