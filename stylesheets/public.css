@@ -1,0 +1,50 @@
+/* Add your styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#main {
+    margin: 20px;
+}
+
+#structure {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#navigation {
+    width: 20%;
+    background-color: #bf0c0c;
+    vertical-align: top;
+    padding: 10px;
+}
+
+#navigation a {
+    text-decoration: none; /* Remove underline from anchor tags inside #navigation */
+}
+
+.selected-ul {
+    font-weight: bold;
+}
+
+#page {
+    width: 80%;
+    background-color: #fff;
+    padding: 10px;
+}
+
+#footer {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
