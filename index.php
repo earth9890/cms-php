@@ -17,18 +17,10 @@ session_start();
                 <div class="page-content">
                     <?php echo strip_tags($selected_page['content']); ?>
                 </div>
-                <?php
-                if (!logged_in()) {
-                    echo "<a href='login.php'><button>Login</button></a> ";
-                }
-                ?>
+              
             <?php } else { ?>
                 <h2>Welcome to Widget Corp</h2>
-                <?php
-                if (!logged_in()) {
-                    echo "<a href='login.php'><button>Login</button></a> ";
-                }
-                ?>
+            
 
             <?php } ?>
         </td>
